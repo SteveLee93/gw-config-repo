@@ -22,11 +22,6 @@ spring:
    console:
      enabled: true
      path: /h2-console
-# JWT
-wt:
- secret: your_jwt_secret_key_here_make_it_long_and_secure_at_least_256_bits
- access-token-validity: 3600000  # 1시간
- refresh-token-validity: 604800000  # 7일
 # Security
 ecurity:
  permitted-urls:
