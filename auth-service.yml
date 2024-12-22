@@ -16,7 +16,7 @@ jpa:
  properties:
   hibernate:
    format_sql: true
-wt:
+jwt:
  secret: thisIsAVeryVerySecretKeyForJwtTokenGenerationInDevelopmentEnvironment123456789
  access-token-validity: 3600000  # 1시간
  refresh-token-validity: 86400000  # 24시간
